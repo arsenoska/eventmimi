@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: #E4E2DD;
+            color: #2B2B2B;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 95vh;
+        }
+        body{
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        nav ul li:last-child{
+            margin-right: 0;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #2B2B2B; 
+            font-weight: bold; 
+            font-size: 1.2rem;
+        }
+        nav ul li a:hover {
+            color: #ad6359;
+        }
+        p{
+            margin-bottom: -6px;
+        }
+        hr {
+            width: 65%;
+            border: 1px solid #2B2B2B; 
+            margin: 20px;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            width: 65%;
+            margin-bottom: 20px;
+        }
+        .content section1 {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            width: 30%;
+        }
+        .content section2 {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            width: 30%;
+        }
+        .content section3{
+            margin-top: 50px;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            width: 30%;
+        }
+        a{
+            color: #ad6359;
+        }
+        h4{
+            margin-bottom: 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <p>CONTACT US</p>
+        <br>    
+        <pre>
+███╗   ██╗███████╗██╗  ██╗████████╗ ██████╗ ███████╗███╗   ██╗   
+████╗  ██║██╔════╝╚██╗██╔╝╚══██╔══╝██╔════╝ ██╔════╝████╗  ██║   
+██╔██╗ ██║█████╗   ╚███╔╝    ██║   ██║  ███╗█████╗  ██╔██╗ ██║   
+██║╚██╗██║██╔══╝   ██╔██╗    ██║   ██║   ██║██╔══╝  ██║╚██╗██║   
+██║ ╚████║███████╗██╔╝ ██╗   ██║   ╚██████╔╝███████╗██║ ╚████║██╗
+╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚═╝
+                    </pre>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <section>
+        <p>To reserve your spot at NextGen, please fill out the registration form below. <br>
+            For any inquiries, feel free to contact us at <a href="mailto:info@nextgen.com">info@nextgen.com</a>.</p>
+    </section><br>
+    <div class="content">
+    <section1>
+        <h2>Contact Form</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+        </form>
+    </section1>
+    <section2>
+        <h2>Ticket Selection</h2>
+            <form action="#" method="POST">
+                <label for="ticket-type">Select Ticket Type:</label>
+                <select id="ticket-type" name="ticket-type">
+                    <option value="normal">Normal</option>
+                    <option value="fanpit">Fan-Pit</option>
+                    <option value="vip">VIP</option>
+                </select><br><br>
+                <input type="submit" value="Submit">
+            </form>
+    </section2>
+    <section3>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="2" cols="30" required></textarea><br>
+    </section3>
+    </div>
+    <h4>CONTACT INFORMATION</h4>
+    <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+    <p><strong>Email:</strong> <a href="mailto:contact@nextgen.com">contact@nextgen.com</a></p>
+    <br><br>
+    <footer>
+        <p>&copy; 2024 Mimi NextGen.</p>
+    </footer>
+</body>
+</html>
